@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#232323"
+    tools:context=".employer_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employer Details"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/employername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employer Name"
+        android:inputType="text"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/companyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Company Name"
+        android:inputType="text"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Country Name"
+        android:inputType="text"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/cityname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Name"
+        android:inputType="text"
+        android:textSize="20dp"/>
+<!--    <EditText-->
+<!--        android:id="@+id/vposition"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Vacant Position"-->
+<!--        android:inputType="text"-->
+<!--        android:textSize="20dp"-->
+<!--        />-->
+    <Button
+        android:id="@+id/enter_employer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Details"
+        android:textSize="20dp"/>
+</LinearLayout>

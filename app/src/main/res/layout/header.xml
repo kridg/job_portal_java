@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="20dp"
+    >
+    <TextView
+        android:id="@+id/employer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Employer Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employer_name"
+        android:layout_centerHorizontal="true"
+        android:text="Company Name"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+
+    <TextView
+        android:id="@+id/employer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_centerHorizontal="true"
+        android:text="employer@example.com"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/employer_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employer_email"
+        android:layout_centerHorizontal="true"
+        android:text="Phone: 123-456-7890"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/employer_phone"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
