@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:gravity="center"
-    android:background="#232323"
+    android:background="#8A8787"
     tools:context=".employer_page">
 
     <TextView
@@ -55,18 +55,11 @@
         android:hint="Enter City Name"
         android:inputType="text"
         android:textSize="20dp"/>
-<!--    <EditText-->
-<!--        android:id="@+id/vposition"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="Enter Vacant Position"-->
-<!--        android:inputType="text"-->
-<!--        android:textSize="20dp"-->
-<!--        />-->
     <Button
         android:id="@+id/enter_employer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="Enter Details"
         android:textSize="20dp"/>
 </LinearLayout>

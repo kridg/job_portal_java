@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    android:background="#1D2D44"
+    android:background="#8A8787"
     tools:context=".jobseekers_signup_page">
     <TextView
         android:layout_width="wrap_content"

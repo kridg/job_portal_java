@@ -9,7 +9,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#1D2D44"
+    android:background="#8A8787"
     android:padding="10dp">
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"

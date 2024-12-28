@@ -60,11 +60,4 @@ public class employer_model {
         this.editcity = editcity;
     }
 
-//    public String getEditposition() {
-//        return editposition;
-//    }
-
-//    public void setEditposition(String editposition) {
-//        this.editposition = editposition;
-//    }
 }

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1D2D44"
+    android:background="#8A8787"
     tools:context=".jobseeker_dashboard">
     <RelativeLayout
         android:layout_width="match_parent"

@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     tools:context=".jobseekers_login_page"
     android:padding="16dp"
-    android:background="#1D2D44"
+    android:background="#8A8787"
     android:gravity="center">
     <TextView
         android:layout_width="wrap_content"
